@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 
 import Textarea from "../UIComponents/Textarea";
-import { textareStyle } from "../../lib/cssConstants";
+import { textareaStyle } from "../../lib/cssConstants";
 import axios from '../../lib/axios';
 import MovieList from './movieList';
 
@@ -44,7 +44,7 @@ const Omdb = () => {
       <div className="row">
         <div className="col offset-md-2 col-md-8">
           <Textarea
-            style={textareStyle}
+            style={textareaStyle}
             innerRef={textareaRef}
             ref={textareaRef}
             placeholder={"Search by Title"}
