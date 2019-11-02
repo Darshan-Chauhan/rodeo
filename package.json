@@ -1,0 +1,29 @@
+{
+  "name": "rodeo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next -p 8888",
+    "staging": "NODE_ENV=production ENV=staging",
+    "production": "NODE_ENV=production ENV=production",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.0",
+    "babel-plugin-emotion": "^10.0.23",
+    "bootstrap": "^4.3.1",
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.11.0",
+    "react-mentions": "^3.3.1",
+    "react-tooltip": "^3.11.1",
+    "styled-components": "^4.4.1"
+  }
+}
